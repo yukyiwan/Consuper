@@ -1,0 +1,52 @@
+[27-Oct-2020 13:35:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home3/wanyuk/public_html/immnewsnetwork/articles/article.php on line 64
+[27-Oct-2020 13:35:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home3/wanyuk/public_html/immnewsnetwork/articles/article.php on line 64
+[27-Oct-2020 13:36:02 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/wanyuk/public_html/immnewsnetwork/articles/article.php on line 40
+[27-Oct-2020 13:37:00 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/wanyuk/public_html/immnewsnetwork/articles/article.php on line 40
+[27-Oct-2020 13:39:06 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/wanyuk/public_html/immnewsnetwork/articles/article.php on line 40
+[27-Oct-2020 13:39:20 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/wanyuk/public_html/immnewsnetwork/articles/article.php on line 40
+[27-Oct-2020 13:40:36 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/wanyuk/public_html/immnewsnetwork/articles/article.php on line 40
+[27-Oct-2020 13:40:55 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/wanyuk/public_html/immnewsnetwork/articles/article.php on line 40
+[27-Oct-2020 13:42:35 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/wanyuk/public_html/immnewsnetwork/articles/article.php on line 40
+[27-Oct-2020 14:04:41 UTC] PHP Parse error:  syntax error, unexpected '<' in /home3/wanyuk/public_html/immnewsnetwork/articles/article.php on line 67
+[27-Oct-2020 14:05:15 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/wanyuk/public_html/immnewsnetwork/articles/article.php on line 43
+[27-Oct-2020 14:05:39 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/wanyuk/public_html/immnewsnetwork/articles/article.php on line 43
+[27-Oct-2020 14:13:29 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/wanyuk/public_html/immnewsnetwork/articles/article.php on line 35
+[27-Oct-2020 14:14:14 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/wanyuk/public_html/immnewsnetwork/articles/article.php on line 35
+[27-Oct-2020 15:05:26 UTC] PHP Parse error:  syntax error, unexpected '{' in /home3/wanyuk/public_html/immnewsnetwork/articles/process-like.php on line 3
+[27-Oct-2020 15:06:54 UTC] PHP Parse error:  syntax error, unexpected '{' in /home3/wanyuk/public_html/immnewsnetwork/articles/process-like.php on line 3
+[27-Oct-2020 15:16:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home3/wanyuk/public_html/immnewsnetwork/articles/process-like.php on line 25
+[27-Oct-2020 15:20:22 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home3/wanyuk/public_html/immnewsnetwork/includes/admin-else.php on line 1
+[27-Oct-2020 15:28:54 UTC] PHP Parse error:  syntax error, unexpected end of file in /home3/wanyuk/public_html/immnewsnetwork/articles/process-like.php on line 24
+[27-Oct-2020 15:56:34 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home3/wanyuk/public_html/immnewsnetwork/articles/process-like.php on line 24
+[27-Oct-2020 15:58:25 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home3/wanyuk/public_html/immnewsnetwork/articles/process-like.php on line 24
+[27-Oct-2020 15:58:56 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home3/wanyuk/public_html/immnewsnetwork/articles/process-like.php on line 24
+[27-Oct-2020 20:36:54 UTC] PHP Parse error:  syntax error, unexpected ')' in /home3/wanyuk/public_html/immnewsnetwork/articles/article.php on line 62
+[27-Oct-2020 20:37:09 UTC] PHP Parse error:  syntax error, unexpected ')' in /home3/wanyuk/public_html/immnewsnetwork/articles/article.php on line 62
+[27-Oct-2020 20:48:59 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home3/wanyuk/public_html/immnewsnetwork/includes/admin-else.php on line 1
+[28-Oct-2020 06:49:20 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home3/wanyuk/public_html/immnewsnetwork/articles/industry-news.php on line 1
+[28-Oct-2020 06:49:20 UTC] PHP Warning:  include(includes/db-config.php): failed to open stream: No such file or directory in /home3/wanyuk/public_html/immnewsnetwork/articles/industry-news.php on line 50
+[28-Oct-2020 06:49:20 UTC] PHP Warning:  include(): Failed opening 'includes/db-config.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home3/wanyuk/public_html/immnewsnetwork/articles/industry-news.php on line 50
+[28-Oct-2020 06:49:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/wanyuk/public_html/immnewsnetwork/articles/industry-news.php:52
+Stack trace:
+#0 {main}
+  thrown in /home3/wanyuk/public_html/immnewsnetwork/articles/industry-news.php on line 52
+[28-Oct-2020 06:50:40 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home3/wanyuk/public_html/immnewsnetwork/articles/industry-news.php on line 1
+[28-Oct-2020 06:51:16 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home3/wanyuk/public_html/immnewsnetwork/articles/industry-news.php on line 1
+[28-Oct-2020 06:52:50 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home3/wanyuk/public_html/immnewsnetwork/articles/industry-news.php on line 1
+[28-Oct-2020 06:55:05 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home3/wanyuk/public_html/immnewsnetwork/articles/industry-news.php on line 1
+[28-Oct-2020 06:58:24 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home3/wanyuk/public_html/immnewsnetwork/articles/industry-news.php on line 1
+[28-Oct-2020 07:00:37 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home3/wanyuk/public_html/immnewsnetwork/articles/technical-news.php on line 1
+[28-Oct-2020 07:02:30 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home3/wanyuk/public_html/immnewsnetwork/articles/career-news.php on line 1
+[28-Oct-2020 07:07:46 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home3/wanyuk/public_html/immnewsnetwork/articles/technical-news.php on line 1
+[28-Oct-2020 07:07:53 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home3/wanyuk/public_html/immnewsnetwork/articles/technical-news.php on line 1
+[28-Oct-2020 07:08:03 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home3/wanyuk/public_html/immnewsnetwork/articles/technical-news.php on line 1
+[28-Oct-2020 07:11:08 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home3/wanyuk/public_html/immnewsnetwork/articles/career-news.php on line 1
+[28-Oct-2020 07:11:20 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home3/wanyuk/public_html/immnewsnetwork/articles/career-news.php on line 1
+[28-Oct-2020 07:14:07 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home3/wanyuk/public_html/immnewsnetwork/articles/industry-news.php on line 1
+[28-Oct-2020 07:48:26 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home3/wanyuk/public_html/immnewsnetwork/articles/catin.php on line 1
+[28-Oct-2020 07:48:36 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home3/wanyuk/public_html/immnewsnetwork/articles/catin.php on line 1
+[28-Oct-2020 08:07:05 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/wanyuk/public_html/immnewsnetwork/articles/career-news.php on line 11
+[28-Oct-2020 09:45:44 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home3/wanyuk/public_html/immnewsnetwork/includes/admin-else.php on line 1
+[28-Oct-2020 19:19:46 UTC] PHP Parse error:  syntax error, unexpected '}' in /home3/wanyuk/public_html/immnewsnetwork/articles/article.php on line 74
+[29-Oct-2020 22:40:26 UTC] PHP Warning:  include(../includes/2ndlevel-header.php): failed to open stream: No such file or directory in /home3/wanyuk/public_html/immnewsnetwork/articles/catin.php on line 25
+[29-Oct-2020 22:40:26 UTC] PHP Warning:  include(): Failed opening '../includes/2ndlevel-header.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home3/wanyuk/public_html/immnewsnetwork/articles/catin.php on line 25

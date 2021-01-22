@@ -1,0 +1,137 @@
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 0;
+    list-style: none;
+
+  }
+  
+/* Display list items side by side */
+ul.breadcrumb li {
+display: inline;
+font-size: 18px;
+font-weight: bold;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+padding: 8px;
+color: black;
+content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+color:#fca9ab
+text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+color: #809848
+text-decoration: underline;
+}
+
+
+#product{
+  position:relative;
+}
+
+#product section{
+  position: relative; */
+  box-sizing: content-box;  
+  width:100%;
+  /* padding-right: 10%; */
+  /* border-radius: 5px; */
+}  
+
+@media screen and (min-width: 768px) {
+#product{
+    position:relative;
+    display:flex;
+    direction: column;
+    margin-top:0;
+}
+
+#product section{
+  position: relative; */
+  box-sizing: content-box;  
+  width:50%;
+  /* padding-right: 10%; */
+  /* border-radius: 5px; */
+}  
+
+}
+
+#product img {
+  width:95%
+  }
+
+#category{
+  width:100%;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction: column;
+  justify-content;space-between;
+ 
+}
+
+
+
+@media screen and (min-width: 768px) {
+.subcat{
+  display:flex;
+  justify-content;space-between;
+  flex-direction: row;
+  /* flex-direction: row; */
+  /* padding-top:50px; */
+}}
+
+
+.subcategory{
+  box-sizing: border-box;
+  background-color: white;
+  width:100%;
+  border-radius: 5px;
+  margin:0;
+  padding:5%;
+  margin-bottom:5%;
+}
+
+
+@media screen and (min-width: 768px) {
+.subcategory{
+  width:100%;
+  border-radius: 5px;
+  margin:1%;
+  padding:3%
+}}
+
+.subcategory img {
+  border-radius: 5px;
+  width:100%
+}
+
+
+.list{
+  box-sizing: border-box;
+  background-color: white;
+  width:100%;
+  border-radius: 5px;
+  margin:0;
+  padding:5%;
+  margin-bottom:5%;
+}
+
+
+@media screen and (min-width: 768px) {
+.list{
+  width:50%;
+  border-radius: 5px;
+  padding:3%
+}}
+
+.list img {
+  border-radius: 5px;
+  width:100%
+}
