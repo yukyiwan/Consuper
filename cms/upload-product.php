@@ -49,21 +49,21 @@ if(isset($_SESSION["personId"]) && isset($_SESSION["userId"])) {
 						<label for="subCatId"> Sub-category:</label>
                 		<select name ="subCategoryId">
 						<option id="blank" disabled selected value> </option> 
-						<?php $stmt = $pdo->prepare("SELECT * FROM `subCategory` WHERE `categoryId`=1");
+						<?php $stmt = $pdo->prepare("SELECT * FROM `subcategory` WHERE `categoryId`=1");
 						$stmt->execute();
 						while($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
 						?>
 						<option class="Electronics" value="<?php echo($row["subCategoryId"]) ?>"><?php echo($row["subCategoryName"]) ?></option>
 						<?php
 						}
-						$stmt = $pdo->prepare("SELECT * FROM `subCategory` WHERE `categoryId`=2");
+						$stmt = $pdo->prepare("SELECT * FROM `subcategory` WHERE `categoryId`=2");
 						$stmt->execute();
 						while($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
 						?>
 						<option class="Furniture" value="<?php echo($row["subCategoryId"]) ?>"><?php echo($row["subCategoryName"]) ?></option>
 						<?php
 						}
-						$stmt = $pdo->prepare("SELECT * FROM `subCategory` WHERE `categoryId`=3");
+						$stmt = $pdo->prepare("SELECT * FROM `subcategory` WHERE `categoryId`=3");
 						$stmt->execute();
 						while($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
 						?>

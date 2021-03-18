@@ -18,7 +18,7 @@
         <meta charset="utf-8">
         <meta name="description" content="Full collection of <?php echo($row["subCategoryName"]);?> products hosted by Consuper">
         <meta name="keywords" content="<?php echo($row["subCategoryName"]);?>">
-        <link rel="canonical" href="products/subCategory.php?subCategoryId=<?php echo($subCategoryId); ?>">
+        <link rel="canonical" href="products/subcategory.php?subCategoryId=<?php echo($subCategoryId); ?>">
         <?php include("../includes/2ndlevel-favicon.php"); ?>
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="../css/product.css">
@@ -29,7 +29,7 @@
             <ul class="breadcrumb">
                 <li><a href="../index.php">Home</a></li>
                 <li><a href="../products/category.php?categoryId=<?php echo($row["categoryId"]); ?>"><?php echo ($row["categoryName"]); ?></a></li>
-                <li><a href="../products/subCategory.php?subCategoryId=<?php echo($subCategoryId); ?>"><?php echo($row["subCategoryName"]); ?></a></li>
+                <li><a href="../products/subcategory.php?subCategoryId=<?php echo($subCategoryId); ?>"><?php echo($row["subCategoryName"]); ?></a></li>
             </ul>             
             <h1><?php echo($row["subCategoryName"]);?></h1>
             

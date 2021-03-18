@@ -56,7 +56,7 @@
                             if ($row["subCatId"]==$check) {} else {
                                 $check = $row["subCatId"];  ?>
                             
-                           <h2 class="subcategory" style="background-color:#442220; color:white"><a href="subCategory.php?subCategoryId=<?php echo($row["subCategoryId"]); ?>"><?php echo($row["subCategoryName"]);?></a></h2><br>
+                           <h2 class="subcategory" style="background-color:#442220; color:white"><a href="subcategory.php?subCategoryId=<?php echo($row["subCategoryId"]); ?>"><?php echo($row["subCategoryName"]);?></a></h2><br>
                             <?php } ?>
                             <section class="subcategory">
                             <a href="product.php?productId=<?php echo($row["productId"]); ?>"><img src="img/<?php echo ($row["iFileName"]); ?>" /></a>

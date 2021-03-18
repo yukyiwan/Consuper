@@ -26,12 +26,11 @@ $row = $stmt->fetch(PDO::FETCH_ASSOC);
         <body>
             <?php include("../includes/2ndlevel-header.php"); ?>
             <main> <?php 
-                $stmt = $pdo->prepare("SELECT * FROM ((`product`
-                INNER JOIN `category` ON `product`.`categoryId` = `category`.`categoryId`)
-                INNER JOIN `subCategory` ON `product`.`subCategoryId` = `subcategory`.`subCategoryId`)
-                WHERE `productId` = '$productId'");
+            include('../includes/db-config.php');
+                $stmt = $pdo->prepare("SELECT * FROM `product` WHERE `productId`= $productId;");
                 $stmt->execute();
-                $row = $stmt->fetch(PDO::FETCH_ASSOC); 
+                $row = $stmt->fetch(PDO::FETCH_ASSOC);
+               
                 $categoryId = $row["categoryId"];
                 $categoryName = $row["categoryName"];
                 $subCategoryId = $row["subCategoryId"];
@@ -52,8 +51,18 @@ $row = $stmt->fetch(PDO::FETCH_ASSOC);
                
             <ul class="breadcrumb">
                 <li><a href="../index.php">Home</a></li>
+                <?php $stmt = $pdo->prepare("SELECT * FROM (`product`
+                INNER JOIN `category` ON `product`.`categoryId` = `category`.`categoryId`)
+                WHERE `category`.`categoryId` = '$categoryId';");
+                $stmt->execute();
+                $row = $stmt->fetch(PDO::FETCH_ASSOC); ?>
                 <li><a href="../products/category.php?categoryId=<?php echo($row["categoryId"]); ?>"><?php echo ($row["categoryName"]); ?></a></li>
-                <li><a href="../products/subCategory.php?subCategoryId=<?php echo($subCategoryId); ?>"><?php echo($row["subCategoryName"]); ?></a></li>
+                <?php $stmt = $pdo->prepare("SELECT * FROM (`product`
+                INNER JOIN `subcategory` ON `product`.`subCategoryId` = `subcategory`.`subCategoryId`)
+                WHERE `subcategory`.`subCategoryId` = '$subCategoryId';");
+                $stmt->execute();
+                $row = $stmt->fetch(PDO::FETCH_ASSOC); ?>
+                <li><a href="../products/subcategory.php?subCategoryId=<?php echo($subCategoryId); ?>"><?php echo($row["subCategoryName"]); ?></a></li>
                 <li><a href="../products/product.php?productId=<?php echo($productId); ?>"><?php echo($pBrand); ?> | <?php echo($pModel); ?> | <?php echo($pName); ?></a></li>
             </ul>             
 
@@ -101,6 +110,9 @@ $row = $stmt->fetch(PDO::FETCH_ASSOC);
                             $row = $stmt->fetch(PDO::FETCH_ASSOC); 
                     ?> </form>
                     <section id="product">
+                    <?php $stmt = $pdo->prepare("SELECT * FROM `product` WHERE `productId`= $productId;");
+                    $stmt->execute();
+                    $row = $stmt->fetch(PDO::FETCH_ASSOC);?>
                     <section><img src="../products/img/<?php echo ($row["iFileName"]); ?>" /></section>
                     <section>
                     <h2><?php echo($pBrand); ?> | <?php echo($pModel); ?> | <?php echo($pName); ?></h2>
